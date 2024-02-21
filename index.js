@@ -18,4 +18,4 @@ client.on('ready', () => {
       }).catch((error) => { return; });
   }, 1000)
 });
-client.login(process.env.token);
+client.login(process.env.TOKEN);
